@@ -1,0 +1,7 @@
+<project name="CPP Sample with Ant" basedir=".">
+  <target name="msbuild">
+    <exec executable="MSBuild.exe" failonerror="true">
+    </exec>
+  </target>
+</project>
+
