@@ -4,5 +4,14 @@
       <arg value="/t:Rebuild"/>
     </exec>
   </target>
+  
+  <target name="build-wrapper">
+     <exec executable="C:\sonarsource\scanners\build-wrapper-win-x86\build-wrapper-win-x86-64.exe">
+      <arg value="--out-dir"/>
+      <arg value="bw-output"/>
+      <arg value="ant"/>
+      <arg value="msbuild"/>
+    </exec>
+  </target>
 </project>
 
