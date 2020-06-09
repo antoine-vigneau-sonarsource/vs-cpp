@@ -4,14 +4,5 @@
       <arg value="/t:Rebuild"/>
     </exec>
   </target>
-  
-  <target name="build-wrapper">
-     <exec executable="C:\sonarsource\scanners\build-wrapper-win-x86\build-wrapper-win-x86-64.exe">
-      <arg value="--out-dir"/>
-      <arg value="bw-output"/>
-      <arg value="C:\Users\avigneau\Documents\jenkins-agent\tools\hudson.tasks.Ant_AntInstallation\Windows_Ant\bin\ant.bat"/>
-      <arg value="msbuild"/>
-    </exec>
-  </target>
 </project>
 
